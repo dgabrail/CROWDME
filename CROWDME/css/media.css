@@ -1,0 +1,78 @@
+@media screen and (min-width:350px) {
+  .section-1 a {
+    padding: 15px 38px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 6%;
+  }
+
+  .section-1 h1 {
+    padding-top: 30%;
+    font-size: 39px;
+  }
+
+  .section-1 p {
+    font-size: 30px;
+  }
+
+  .section-2 h2 {
+    max-width: 573px;
+  }
+
+  .box {
+    padding: 4% 2% 4% 2%;
+  }
+}
+
+@media screen and (min-width:500px) {
+  .section-1 h1 {
+    padding-top: 12%;
+    font-size: 49px;
+  }
+
+  .section-1 p {
+    font-size: 35px;
+  }
+
+  .section-1 a {
+    padding: 20px 43px;
+    font-size: 20px;
+    margin-top: 4%;
+  }
+
+  .section-2 h2 {
+    margin-top: 8%;
+    font-size: 31px;
+    line-height: 50px;
+  }
+
+  .box {
+    display: flex;
+  }
+}
+
+@media screen and (min-width:850px) {
+  .boxes {
+    display: flex;
+  }
+
+  .box {
+    flex-basis: 50%;
+    text-align: left;
+    justify-content: space-around;
+  }
+
+  .box-1 {
+    justify-content: end;
+    justify-content: space-around;
+  }
+
+  .box-2 .find-image {
+    margin-left: 5%;
+  }
+
+  .description {
+    line-height: 35px;
+    text-align: left;
+  }
+}
